@@ -1,0 +1,357 @@
+/* 改变 头部 样式 */
+.el-header{
+    background-color: #ffffff;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+  
+  }
+  .el-footer {
+    background-color: #f6f6f6;
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .el-aside {
+    background-color: #d3dce6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+  /**guob 改变dialog padding*/
+  .el-dialog__body {
+    padding: 0px 20px 10px 20px;
+  }
+  /**单号链接*/
+  .m-a{
+    cursor: pointer;
+    color: #0E98A5;
+  }
+  .m-a:hover{
+    color: #08535a;
+    cursor: "hand";
+  }
+  /* 改变form label文字颜色变量 */
+  .el-form-item__label {
+    color: #333333;
+  }
+  
+  /* 改变form 高度变量 */
+  .el-form-item--mini.el-form-item,
+  .el-form-item--small.el-form-item {
+    margin-bottom: 12px
+  }
+  
+  // // .el-form-item--mini .el-form-item__content,
+  // //wuwei 10.9号调整
+    .el-form-item--mini .el-form-item__content {
+      line-height: 20px;
+  }
+  //wuwei 10.2号调整
+  .el-form-item--mini .el-form-item__label {
+    line-height: 28px
+  }
+  //wuwei 10.18号调整  校验错误输入框也变红
+  .el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-input__inner:focus, .el-form-item.is-error .el-textarea__inner, .el-form-item.is-error .el-textarea__inner:focus {
+    border-color: #f56c6c;
+  }
+  // .el-form-item--mini .el-form-item__content,
+  //guob 10.9号调整 改为40px
+  // .el-form-item--mini .el-form-item__content {
+  //   line-height: 20px;
+  // }
+  /*add by guob IE 兼容**/
+  .el-input-group__append .el-select, .el-input-group__append .el-button,
+  .el-input-group__prepend .el-select, .el-input-group__prepend .el-button {
+       margin : 0px -20px 0px -20px;
+  }
+  .el-input-group{
+    display:table;
+  }
+  /*add by guob chrome edit by shl 版本 兼容**/
+  .el-input--mini {
+    font-size: 12px;
+    min-height: 30px;
+  }
+  /*add by guob edit by shl **/
+  .el-input--mini .el-input__inner {
+    height: 30px;
+    line-height: 30px
+  }
+  
+  
+  .el-form-item__error{
+    font-size: 8px;
+  }
+  
+  .el-input__inner::-webkit-input-placeholder {
+    color: #ABAEB5
+  }
+  
+  .el-input__inner:-ms-input-placeholder {
+    color: #ABAEB5
+  }
+  
+  .el-input__inner::placeholder {
+    color: #ABAEB5
+  }
+  
+  .el-input__inner:hover {
+    border-color: #0E98A5
+  }
+  .el-select:hover .el-input__inner {
+    border-color: #0E98A5
+  }
+  .el-input__inner {
+    border-radius: 3px;
+    border: 1px solid #D7DAE1;
+  
+  }
+  
+  .el-input.is-disabled .el-input__inner{
+    color : #2d2e31 !important;
+  }
+  
+  .el-textarea.is-disabled .el-textarea__inner{
+    color : #2d2e31 !important;
+  }
+  
+  .el-input .el-input--mini .is-disabled .el-input--suffix{
+    color : #2d2e31 !important;
+  }
+  
+  
+  .el-textarea__inner {
+    border: 1px solid #D7DAE1;
+    
+  }
+  
+  input::-webkit-input-placeholder{
+    color:red;
+  }
+  input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:red;
+  }
+  input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:red;
+  }
+  input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:red;
+  }
+  
+  
+  /* 改变button 样式 */
+  .el-button--mini,
+  .el-button--small {
+    font-size: 13px;
+    border-radius: 3px
+  }
+  /* 改变 table 样式 */
+  .el-table {
+    color: #303133;
+  }
+  .el-table thead {
+    color: #606266;
+    font-weight: 500；
+  }
+  
+  /* .el-table thead.is-group th {
+    background: #f5f7fa
+  } */
+  .el-table th{
+    background: #f5f7fa;
+  }
+  // .el-table td,
+  // .el-table th {
+  //   padding: 0;
+  // }
+  // .el-collapse {
+  //   border:none;
+  // }
+  
+  // 模块样式
+  .panel-default {
+    border-color: #ddd;
+  }
+  .panel-heading>.sub-title{
+    border-bottom:3px solid #F6AD12; padding: 8px 5px;
+  }
+  .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    /*border: 1px solid transparent;*/
+    border-radius: 4px;
+    /* -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+    /* box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+  }
+  .panel-default>.panel-heading {
+    color: #333;
+    /*background-color: #f5f5f5;*/
+    border-color: #D8D8D8;
+  }
+  .panel-heading {
+    padding: 10px 0px;
+    margin: 0 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: left;
+  }
+  .panel-body {
+    padding: 15px 15px 10px 10px;
+  }
+  .mg-t-40
+  {
+    //wuwei 11.02
+    // margin-top: 40px;
+  }
+  .mg-r-15{
+    margin-right: 15px;
+  
+  }
+  .fl-r{
+    float: right;
+  }
+  .fl-l{
+    float : left;
+  }
+  .top-fixed-btn
+  {
+    // position: fixed;
+    position:relative;
+    // top: 76px;
+    right: 20px;
+    z-index: 2000;
+  }
+  .panel-heading i.el-icon-remove-outline{
+    color: #606266;
+    float:right;
+  }
+  .mg-l-0 .el-form-item__content{
+    margin-left: 0px !important;
+  }
+  .el-dropdown + .el-button {
+    margin-left: 10px;
+  }
+  .el-button + .el-dropdown {
+    margin-left: 10px;
+  }
+  //new style
+  .search-box{
+    position: relative;
+  }
+  .search-icon{
+    position:absolute;
+    right: 10px;
+    top: 3px;
+  }
+  .f-r{
+    float: right;
+  }
+  .mg-b-20{
+    margin-bottom: 20px;
+  }
+  .mg-b-10{
+    margin-bottom: 10px;
+  }
+  .table-heading{
+    line-height: 40px;
+    font-size: 12px;
+    color: #303133;
+    font-weight: 500;
+  }
+  .mg-r-5{
+    margin-right: 5px;
+  }
+  .hide{
+    visibility: hidden;
+  }
+  .el-icon-remove-outline {
+    cursor: pointer;
+  }
+
+
+
+
+//主题颜色
+  .el-button--primary{
+    background-color: #2285A5;
+    border-color:#2285A5;
+    &:hover {
+      background-color: #194861;
+      border-color:#194861;
+    }
+  }
+  .el-button--primary:focus{
+    background-color: #2285A5;
+    border-color:#2285A5;
+  }
+  
+  .el-input-group__append {
+    border-color: #2285A5;
+    background-color: #2285A5;
+    color: white;
+  }
+  .el-input-group__append{
+    border: none;
+  }
+  
+  .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+    background-color: #2285A5;
+  }
+  .el-radio-button:first-child .el-radio-button__inner{
+    border-left: 1px solid #2285A5;
+  }
+  .el-radio-button__inner{
+    border-top: 1px solid #2285A5;
+    border-right: 1px solid #2285A5;
+    border-bottom: 1px solid #2285A5;
+    color: #2285A5;
+  }
+  
+
+  .el-collapse-item__header{
+    border-top: 3px solid #2285A5 ;
+    border-radius: 3px;
+    border-bottom: none;
+    height: 30px;
+    text-align: right;
+    color: #606266;
+  }
+
+  .el-checkbox-button.is-checked .el-checkbox-button__inner{
+    color: white;
+    background-color: #006699;
+    border-color: #006699;
+    .check-item-span:hover {
+      color: white;
+    }
+  }
+  .el-checkbox-button.is-focus .el-checkbox-button__inner{
+    border-color: #dcdfe6;
+  }
+  
+  .el-checkbox-button__inner:hover{
+    color: #006699
+  }
+  
+  .el-textarea__inner:hover{
+    border: 1px solid #006699
+  }
+  //table错位
+  body .el-table th.gutter{
+      display: table-cell!important;
+  }
+  
+  body .el-table colgroup.gutter{
+      display: table-cell!important;
+  }
+   .el-table .warning-row {
+    background: oldlace;
+  }
+
+  .el-table .success-row {
+    background: #f0f9eb;
+  }

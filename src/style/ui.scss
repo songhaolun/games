@@ -1,0 +1,504 @@
+.grid-content {
+    border : #b0bdd45d solid 1px;
+    border-radius: 5px;
+    padding : 10px;
+    margin: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+// .grid-content:hover{
+//     border :  #b0bdd45d solid 1px;
+//     border-radius: 5px;
+//     padding : 10px;
+//     margin: 10px;
+//     box-shadow: 0 4px 12px 0 rgba(28, 28, 202, 0.137);
+// }
+
+
+
+.leadview-class{
+    width: 100%;
+}
+.form-item{
+//   width: 220px;
+}
+.header-txt{
+    font-size: 26px;
+    font-weight: 600;
+    float: left; 
+    height: 40px !important;
+}
+
+.header-desc{
+    font-size: 16px;
+    text-align: left !important;
+    height: 120px !important;
+}
+.tips-txt-wapper{
+    font-size: 12px;
+    color: #909399;
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.tips-txt{
+    font-size: 15px;
+    color: #787c83;
+    float: left; 
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.tips-txt2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #909399;
+    float: left; 
+    height: 24px !important;
+    line-height: 24px !important;
+}
+.tips-txt3{
+    font-size: 15px;
+    font-weight: 500;
+    color: #909399;
+    float: left; 
+    height: 24px !important;
+    line-height: 24px !important;
+}
+
+.des-tips{
+    font-size: 12px;
+    color: #909399;
+    font-weight: 600;
+    float: left; 
+    height: 18px !important;
+    line-height: 18px !important;
+    padding:0 0 0 20px 
+}
+
+.des-tips-leader{
+    font-size: 12px;
+    color: #909399;
+    font-weight: 600;
+    float: left; 
+    // height: 120px !important;
+    line-height: 18px !important;
+    padding:0 0 0 20px ;
+    text-align: left;
+    width: 80%
+}
+
+
+.leader-col{
+    margin-top: 30px;
+    height: 40px;
+    text-align: left;
+}
+.simpleBox{
+    margin: 5px;
+    padding: 10px;
+    border: solid 1px #EBEEF5;
+    border-radius: 5px;
+}
+
+
+.red{
+    color: red;
+    padding:0px 4px 0px 0px 
+}
+
+.el-selected {
+    width : 220px;
+}
+.el-autocomplete{
+  width : 220px;
+}
+
+.datetimerange{
+    width : 220;
+}
+
+.textarea-220{
+    width: 220px;
+}
+
+
+
+.textarea-430{
+    width: 430px;
+}
+
+// .el-textarea__inner{
+//     width:220px ;
+// }
+
+.boxHeadDiv{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 25px !important;
+    // background-color: #2285A5;
+    background-color: #2285A5;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.shadow{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.el-dialog__header{
+    background-color: #2285A5;
+}
+
+.page-header{
+    
+}
+
+.el-dialog__headerbtn .el-dialog__close{
+    color: #FFFFFF !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close :hover{
+    color: #000000;
+}
+
+.el-dialog__title{
+    color: #FFFFFF;
+}
+
+
+.small-toolbar{
+    background: #f2f2f2;
+    border: 1px solid #dfe6ec;
+    margin: 5px;
+}
+
+.el-button--mini{
+    margin: 5px !important;
+}
+
+.row-title{
+    height: 20px !important;
+    line-height: 15px !important;
+    font-size: 15px;
+    padding: 3px;
+    text-align: left;
+    margin: 0 0 0 30px;
+}
+
+.block-title{
+    text-align: left;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+.block-title-pdf{
+    text-align: left;
+    font-weight: 600;
+    height: 40px;
+    font-size: 18px;
+
+}
+
+.custom-tree-node {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 5px !important;
+    width : 100%
+    ;
+  }
+
+.general-header{
+    font-weight: 400;
+    color: #1f2f3d;
+    font-size: 18px;
+    margin: 10px;
+    text-align: left;
+}
+
+.table-header{
+    font-weight: 400;
+    color: #1f2f3d;
+    font-size: 22px;
+    margin: 2px;
+    text-align: left;
+}
+
+.general-content{
+    font-weight: 400;
+    color: #1f2f3d;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    text-align: left;
+}
+
+.min-height-400{
+    min-height: 400px;
+}
+
+.min-height-600{
+    min-height: 600px;
+}
+
+.min-height-500{
+    min-height: 500px;
+}
+
+.container{
+    background-color: #ffffff;
+    // padding-top: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.el-col-left{
+    text-align: left;
+    height: 80px
+}
+
+.el-left{
+    text-align: left;
+}
+
+.block-left{
+    display:block;
+    text-align: left;
+}
+
+.el-left-h42{
+    text-align: left;
+    height: 42px;
+}
+
+.right-button{
+    margin: 10px !important;
+    float: right;
+}
+.right-m5{
+    margin: 5px !important;
+    float: right;
+}
+
+.right-m3{
+    margin: 3px !important;
+    float: right;
+}
+
+.right-mlr3{
+    margin: 0px 3px 0px 3px !important;
+    float: right;
+}
+
+.left-button{
+    margin: 10px !important;
+    float: left;
+}
+
+.b-inline{
+    margin-right: 5px;
+}
+
+.center-div{
+    // margin:auto;
+    // top:0;
+    // left:0;
+    // bottom:0;
+    // right:0;
+    text-align: center;
+}
+
+.tableBar {
+    background-color: white;
+
+    border-top: 3px solid #2285A5 ;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04);
+}
+
+
+
+.success-row{
+    background-color: #E1F3D8 !important;
+}
+
+.warning-row{
+    background-color: #FDE2E2 !important;
+}
+
+.disabled-row{
+    background-color: #E9E9EB !important;
+}
+
+.el-table__body tr.current-row > td {
+    background-color: #C6E2FF;
+}
+
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/ 
+::-webkit-scrollbar 
+{ 
+    width: 10px; 
+    height: 10px; 
+    background-color: #E9F4F3;
+} 
+   
+/*定义滚动条轨道 内阴影+圆角*/ 
+::-webkit-scrollbar-track 
+{ 
+    -webkit-box-shadow: inset 0 0 6px #DDDDDD; 
+    border-radius: 10px; 
+    background-color: #F2F5F8; 
+} 
+   
+/*定义滑块 内阴影+圆角*/ 
+::-webkit-scrollbar-thumb 
+{ 
+    border-radius: 5px; 
+    -webkit-box-shadow: inset 0 0 6px #BFC3D9; 
+    background-color: #B4BEC4; 
+} 
+
+.A4Page{
+    width: 1150px;
+    // height: 1623px;
+    // border: solid 1px black
+}
+
+.form-item-label{
+    width: 180px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 12px;
+    color: #606266;
+    line-height: 30px;
+    padding: 0 12px 0 0 !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.form-item-context{
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 12px;
+    color: #606266;
+    line-height: 20px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.pdf-item-label{
+    width: 180px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 18px;
+    color: #606266;
+    line-height: 60px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.pdf-item-context{
+    width: 345px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 18px;
+    color: #606266;
+    line-height: 60px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.pdf-item-label-detail{
+    width: 100px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 18px;
+    color: #606266;
+    line-height: 60px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.pdf-item-context-detail{
+    width: 220px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 18px;
+    color: #606266;
+    line-height: 60px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.pdf-item-textArea{
+    width: 90%;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 18px;
+    color: #606266;
+    line-height: 40px;
+    padding: 0 12px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+
+ .canvas{
+    position:absolute;z-index:-1
+ }
+ 
+ .my-autocomplete{
+     width: 400px !important
+ }
+
+ .el-table .cell {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+.infinite-list {
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.infinite-list-item {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    min-height: 60px;
+    font-weight: 600;
+    background: #fff;
+    margin: 5px;
+    color: #303133;
+    font-size: 22px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04);
+}
